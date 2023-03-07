@@ -26,5 +26,13 @@ public class Romain {
 			parler("j'abandonne...");
 		}
 	}
-	
+	 public static void main(String[] args) {
+		 Romain julio;
+		 julio=new Romain("julio",4);
+		 julio.prendreParole();
+		 julio.parler("ahhhh");
+		 julio.recevoirCoup(5);
+		 
+	 }
 }
+
