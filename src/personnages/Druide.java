@@ -40,7 +40,13 @@ public class Druide {
 			}
 		return forcePotion;
 	}
-	
+	public void booster(Gaulois gaulois) {
+		
+		if(gaulois.getNom() =="Obélix") {
+			parler("Non, Obélix !... Tu n'auras pas de potion magique !");
+		}
+		
+	}
 	public static void main(String[] args) {
 		Druide panomarix;
 		panomarix=new Druide("Panomarix",5,10);
