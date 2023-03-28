@@ -32,8 +32,11 @@ public class Village {
 	public void setChef(Chef chef) {
 		this.chef = chef;
 	}
-	public void afficherVillageois() {
-		
+	public void afficherVillageois(Chef chef) {
+		System.out.println("Dans le village du chef"+chef.getNom()+"vivent les legendaires gauloise :");
+		for (int i=0;i<nbvillageois;i++) {
+			System.out.println("_"+villageios[i].getNom());
+		}
 		
 		
 		
@@ -46,6 +49,9 @@ public class Village {
 		 village.setChef(Abraracourcix);
 		 Gaulois astérix = new Gaulois("astérix",8);
 		 village.ajouterHabitant(astérix);
+		 Gaulois Obélix = new Gaulois("Obélix",25);
+		 village.ajouterHabitant(Obélix);
+		 village.afficherVillageois(Abraracourcix);
 		 //Gaulois gaulois = village.trouverHabitant(1);
 		 //System.out.println(gaulois);
 		 
