@@ -11,7 +11,7 @@ public class Scenario {
 		Romain minus;
 		Gaulois astérix;
 		astérix=new Gaulois("Asterix",8);
-		minus=new Romain("Minus",29);
+		minus=new Romain("Minus",6);
 		Druide Panomarix;
 		Gaulois Obélix;
 		Obélix=new Gaulois("Obélix",6);
